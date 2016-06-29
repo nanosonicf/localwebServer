@@ -1,0 +1,65 @@
+h3{
+background-color:red;
+}
+img{
+width:180px;
+height:150px;
+
+}
+
+h4.cities{
+background-color: black;
+color:white;
+
+}
+
+h4.countries{
+background-color: orange;
+color:grey;
+
+}
+
+#header {
+  background-color: purple;
+  color:white;
+  padding: 5px;
+}
+
+iframe {
+  width:200px;
+  height:200px;
+}
+a {
+background-color: purple;
+font-family:sans-serif;
+color:white;
+
+}
+div.trans{
+  background:navy;
+  height:100px;
+  width:100px;
+ -webkit-transition:width 2s,height 5s;
+transition: width 2s, height 5s;
+
+}
+div.trans:hover{
+  width:300px;
+  height:150px
+}
+
+@keyframes deneme{
+  from{background-color:white;}
+  to{background-color:purple;}*/
+  0% {width:100px;}
+  25% { width: 150px;}
+  50% {height: 150px;}
+  100% {width: 300, height:300}*/
+}
+div.anim{
+  width: 100px;
+  height: 100px;
+  background-color:white;
+  animation-name:deneme;
+  animation-duration: 5s;
+}
